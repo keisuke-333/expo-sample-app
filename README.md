@@ -1,7 +1,7 @@
 # todoapp
 
 こちらの開発方法を [Zenn](https://zenn.dev/) で本にまとめました  
-[React Native(expo)でアプリ開発](https://zenn.dev/keisuke333/books)
+[Expo でアプリ開発](https://zenn.dev/keisuke333/books)
 
 ## Stack
 
