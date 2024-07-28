@@ -1,5 +1,3 @@
-# todoapp
-
 こちらの開発方法を [Zenn](https://zenn.dev/) で本にまとめました  
 [Expo でアプリ開発](https://zenn.dev/keisuke333/books)
 
@@ -8,9 +6,9 @@
 - React Native
 - Expo
 - TypeScript
-- Tailwind CSS
 - NativeWind
 - Bun
+- Supabase
 
 ## 環境構築
 
