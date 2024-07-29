@@ -5,6 +5,7 @@ import {
   NotoSansJP_400Regular,
   NotoSansJP_700Bold,
 } from "@expo-google-fonts/noto-sans-jp"
+import { RootSiblingParent } from "react-native-root-siblings"
 
 SplashScreen.preventAutoHideAsync()
 
@@ -25,9 +26,11 @@ export const RootLayout = () => {
   }
 
   return (
-    <Stack>
-      <Stack.Screen name="index" options={{ headerShown: false }} />
-    </Stack>
+    <RootSiblingParent>
+      <Stack>
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+      </Stack>
+    </RootSiblingParent>
   )
 }
 
